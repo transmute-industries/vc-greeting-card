@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/vc-greeting-card/static/css/main.012ff5c3.chunk.css",
+    "main.js": "/vc-greeting-card/static/js/main.a919f868.chunk.js",
+    "main.js.map": "/vc-greeting-card/static/js/main.a919f868.chunk.js.map",
+    "runtime-main.js": "/vc-greeting-card/static/js/runtime-main.f0d95676.js",
+    "runtime-main.js.map": "/vc-greeting-card/static/js/runtime-main.f0d95676.js.map",
+    "static/js/2.208c83f8.chunk.js": "/vc-greeting-card/static/js/2.208c83f8.chunk.js",
+    "static/js/2.208c83f8.chunk.js.map": "/vc-greeting-card/static/js/2.208c83f8.chunk.js.map",
+    "index.html": "/vc-greeting-card/index.html",
+    "precache-manifest.b5b800d64b1fd4c650980bb315f32cc2.js": "/vc-greeting-card/precache-manifest.b5b800d64b1fd4c650980bb315f32cc2.js",
+    "service-worker.js": "/vc-greeting-card/service-worker.js",
+    "static/css/main.012ff5c3.chunk.css.map": "/vc-greeting-card/static/css/main.012ff5c3.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0d95676.js",
+    "static/js/2.208c83f8.chunk.js",
+    "static/css/main.012ff5c3.chunk.css",
+    "static/js/main.a919f868.chunk.js"
+  ]
+}
