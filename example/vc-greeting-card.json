@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://transmute-industries.github.io/vc-greeting-card/context/vc-greeting-card-v0.0.jsonld"
+  ],
+  "id": "https://example.com/credentials/1872",
+  "type": [
+    "VerifiableCredential",
+    "GreetingCard"
+  ],
+  "issuer": "did:key:z6MkfjzekdSxfzgFZ7Vidht7maChXXHrx9dTMQ2LUbr2sjZq",
+  "issuanceDate": "2019-11-29T21:28:13.251Z",
+  "credentialSubject": {
+    "id": "did:example:123"
+  },
+  "greetingCard": {
+    "image": "http://i.imgur.com/SxtVfyQ.jpg",
+    "message": "Happy Holidays!",
+    "from": "did:key:z6MkfjzekdSxfzgFZ7Vidht7maChXXHrx9dTMQ2LUbr2sjZq",
+    "to": "did:example:123"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2019-11-29T21:28:13Z",
+    "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..h1DtNjkBFlzSNDtuqCyeKiE81sVtmmxiOj1pBHc6Tsm5vTkYz4RmpghMOscuk8UhuKsLHtF752kfr8mgnEuHCg",
+    "proofPurpose": "assertionMethod"
+  }
+}
