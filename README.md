@@ -1,5 +1,9 @@
 # Verifiable Credential Greeting Cards
 
+The context and documentation for this kind of credential can be found here:
+
+https://transmute-industries.github.io/vc-greeting-card/context/vc-greeting-card-v0.0
+
 Works with [did:key](https://did-key.web.app/)
 
 ## Development
