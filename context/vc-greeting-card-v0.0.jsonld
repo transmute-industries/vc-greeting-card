@@ -3,9 +3,7 @@
     "@version": 1.1,
     "id": "@id",
     "type": "@type",
-    "ldssk": "https://transmute-industries.github.io/linked-data-signature-starter-kit/#",
-    "MyLinkedDataSignature2019": "ldssk:MyLinkedDataSignature2019",
-    "MyJwsVerificationKey2019": "ldssk:MyJwsVerificationKey2019",
-    "publicKeyJwk": "ldssk:publicKeyJwk"
+    "vcgc": "https://transmute-industries.github.io/vc-greeting-card/context/vc-greeting-card-v0.0/#",
+    "greetingCard": "vcgc:greetingCard"
   }
 }
