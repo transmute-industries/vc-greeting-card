@@ -2,7 +2,9 @@
   "name": "vc-greeting-card",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://transmute-industries.github.io/vc-greeting-card",
   "dependencies": {
+    "base64url": "^3.0.1",
     "crypto-ld": "^3.7.0",
     "did-method-key": "^0.2.0",
     "jsonld": "^1.8.1",
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }

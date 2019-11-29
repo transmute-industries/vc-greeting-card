@@ -1,6 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Verifiable Credential Greeting Cards
 
-## Available Scripts
+Works with [did:key](https://did-key.web.app/)
+
+## Development
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 

@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "vcgc": "https://transmute-industries.github.io/vc-greeting-card/context/vc-greeting-card-v0.0#",
+    "greetingCard": "vcgc:greetingCard",
+    "from": "vcgc:from",
+    "to": "vcgc:to",
+    "message": "vcgc:message",
+    "image": "vcgc:image"
+  }
+}
