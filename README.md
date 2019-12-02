@@ -6,6 +6,12 @@ https://transmute-industries.github.io/vc-greeting-card/context/vc-greeting-card
 
 Works with [did:key](https://did-key.web.app/)
 
+Uses:
+
+- https://github.com/digitalbazaar/vc-js
+- https://github.com/digitalbazaar/did-method-key
+- https://github.com/digitalbazaar/did-method-key-js
+
 ## Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
