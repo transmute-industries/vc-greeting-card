@@ -14,7 +14,7 @@ class GreetingCardFromURL extends React.Component {
       <React.Fragment>
         <GreetingCardFromData
           greetingCard={
-            decoded.credentialSubject.greetingCard
+            decoded.greetingCard
               ? decoded.greetingCard
               : decoded.credentialSubject.greetingCard
           }
