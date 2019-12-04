@@ -12,7 +12,9 @@ class GreetingCardFromURL extends React.Component {
     );
     return (
       <React.Fragment>
-        <GreetingCardFromData greetingCard={decoded.greetingCard} />
+        <GreetingCardFromData
+          greetingCard={decoded.credentialSubject.greetingCard}
+        />
         <pre>{JSON.stringify(decoded, null, 2)}</pre>
         <button
           onClick={() => {

@@ -53,13 +53,14 @@ class MakeCard extends React.Component {
       issuer: didDoc.id,
       issuanceDate: new Date().toISOString(),
       credentialSubject: {
-        id: this.state.toDID
-      },
-      greetingCard: {
-        image: this.state.backgroundImage,
-        message: this.state.message,
-        from: this.state.issuerVerificationMethod,
-        to: this.state.toDID
+        id: this.state.toDID,
+        greetingCard: {
+          type: "HolidayCard",
+          image: this.state.backgroundImage,
+          message: this.state.message,
+          from: this.state.issuerVerificationMethod,
+          to: this.state.toDID
+        }
       }
     };
 
